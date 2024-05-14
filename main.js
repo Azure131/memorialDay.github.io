@@ -1,6 +1,6 @@
 
         function getTimeElapsed() {
-            var startDate = new Date("2023-11-04"); // 设置开始日期，替换为实际的起始日期
+            var startDate = new Date("2023-11-04 00:00:00"); // 设置开始日期，替换为实际的起始日期
             var currentDate = new Date();
             var timeDiff = currentDate - startDate;
 
